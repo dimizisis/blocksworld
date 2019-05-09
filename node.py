@@ -5,5 +5,5 @@ class Node:
         self.world_state = world_state
         self.priority = priority
 
-    def __lt__(self, other):
+    def __lt__(self, other):    # used for priority queue (a-star & best-first)
         return self.priority < other.priority
