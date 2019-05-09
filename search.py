@@ -196,7 +196,6 @@ class Search:
 
         return curr_node
 
-    # For testing purposes
     def print_status_dfs(self, curr_node):
         '''
         Prints blocks & their positions
