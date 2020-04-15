@@ -16,7 +16,7 @@ It is a Blocks World puzzle game solver, with different kinds of algorithms. Thi
 python main.py <search_method> <input_file> <output_file>
 ```
 
-## File Format
+## Input File Format (ini)
 
 ```
 [START] # starting state
@@ -28,6 +28,29 @@ agent=2,2 # starting state of agent
 [GOAL]
 a=1,1 # goal state of block a
 b=1,2 # goal state of block b
+```
+
+## Output File Format (txt)
+```
+a ('0, 2')
+b ('1, 2')
+----------
+Nodes expanded: 1
+----------
+a ('0, 2')
+b ('1, 2')
+----------
+Nodes expanded: 2
+  .
+  .
+  .
+----------
+a ('1, 1')
+b ('1, 2')
+----------
+Nodes expanded: 242
+----------
+--- Execution time (seconds): 0.006296873092651367 ---
 ```
 
 ## Solving methods
