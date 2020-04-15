@@ -10,6 +10,13 @@ The simplicity of this toy world lends itself readily to classical symbolic arti
 
 It is a Blocks World puzzle game solver, with different kinds of algorithms. This project is created as an assignment of Artificial Inteligence university course.
 
+## Solving methods
+
+* A* Search Algorithm (astar)
+* Best First Search Algorithm (best)
+* readth First Search Algorithm (breadth)
+* Depth First Search Algorithm (depth)
+
 ## Usage
 
 ```
@@ -52,10 +59,3 @@ Nodes expanded: 242
 ----------
 --- Execution time (seconds): 0.006296873092651367 ---
 ```
-
-## Solving methods
-
-* A* Search Algorithm (astar)
-* Best First Search Algorithm (best)
-* readth First Search Algorithm (breadth)
-* Depth First Search Algorithm (depth)
